@@ -1,0 +1,106 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22/03/2024, 20:31:06
+    Author     : alunos
+*/
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(174,238,176);
+    background: radial-gradient(circle, rgba(174,238,176,1) 0%, rgba(0,0,0,1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #333;
+    text-shadow: 2px 2px 4px white;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="submit"] {    
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input [name="txtid"]{
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #339900;
+    color: #fff;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #336600;
+}
+
+/* Optional: Center the form on smaller screens */
+@media (max-width: 768px) {
+    form {
+        width: 80%;
+    }
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+}
+
+/* Estilo das células da tabela */
+.tabela td {
+    width: 50%;
+    padding: 8px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    white-space: nowrap;
+}
+
+/* Estilo das linhas pares da tabela */
+.tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo das células quando o mouse passa por cima */
+.tabela tr:hover {
+    background-color: #ddd;
+}
+
+.tabela th {
+    width: 50%;
+    color: white;
+    background-color: #339900;
+    white-space: nowrap;
+}
+
+.tabela th:hover {
+    background-color: #336600
+}

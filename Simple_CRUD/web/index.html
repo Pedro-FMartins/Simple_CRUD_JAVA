@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href ="style.css">
+        <!--
+        <script type="text/javascript">
+            function redirecionarconsultadorTodos() {
+                window.location = "/ManterClientev1/Controller_Cliente?btnoperacao=CONSULTAR TODOS";
+            }
+        </script>
+        -->
+    </head>
+    <body onload = "redirecionarconsultadorTodos()">
+        <h1>
+            Manter Cliente
+        </h1>
+        
+        <BR><BR><BR><!-- comment -->
+        <form name="f1" action="Controller_Cliente" method="post">
+            Id.......: <input type="text" name ="txtid"><BR>
+            Nome.....: <input type="text" name ="txtnome"><BR>
+            Sobrenome: <input type="text" name="txtsobrenome"><BR>
+            CPF......: <input type="text" name="txtCPF"><BR>
+            Empresa..: <input type="text" name="txtempresa"><BR>
+            Telefone.: <input type="text" name ="txttelefone"><BR>
+            Endereço.: <input type="text" name ="txtendereco"><BR>
+            Id Compra: <input type="text" name="txtid_compra"><BR>
+            Descricao: <input type="text" name="txtdescricao"><BR>
+            Valor....: <input type="text" name="txtvalor"><BR><BR>
+            
+            <input type="submit" name ="btnoperacao" value="Cadastrar"><BR>  
+            <input type="submit" name ="btnoperacao" value="Deletar"><BR>
+            <input type="submit" name ="btnoperacao" value="Alterar"><BR> 
+            <input type="submit" name ="btnoperacao" value="ConsultarPorId"><BR> 
+            <input type="submit" name ="btnoperacao" value="ConsultarTodos"><BR>            
+        </form>
+    </body>
+</html>
